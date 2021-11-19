@@ -1,13 +1,31 @@
-.timer, .button {
-    display: flex;
-    justify-content: center;
+.timer,
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 button {
-    padding: 5px 10px;
-    margin: 5px 10px;
+  padding: 5px 10px;
+  margin: 5px 10px;
 }
 
-h1+h1::before{
-    content:':'
+.button1 {
+  display: inline-block;
+}
+
+#btclear {
+  display: flex;
+  justify-content: center;
+}
+
+#span {
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+}
+
+h1 + h1::before {
+  content: ":";
 }
